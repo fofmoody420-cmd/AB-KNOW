@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050807">
+  <title>AB KNOW | اعرف أكتر</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="/">AB <span>KNOW</span></a>
+    <button id="themeBtn" class="theme-btn">☀️</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="glow">✦ KNOW MORE · DISCOVER MORE ✦</div>
+      <h1>عالم المعرفة<br><span>بين إيديك</span></h1>
+      <p>اكتشف معلومات جديدة، تعلّم التكنولوجيا، واستكشف تطبيقات مفيدة.</p>
+      <form id="searchForm" class="search">
+        <input id="searchInput" type="search"
+          placeholder="دور على معلومة..." autocomplete="off">
+        <button type="submit">بحث</button>
+      </form>
+      <p id="searchMessage" class="message"></p>
+    </section>
+
+    <section class="section">
+      <h2>استكشف <span>الأقسام</span></h2>
+      <div class="grid">
+        <a class="card" href="#knowledge" data-category="knowledge">
+          <div class="emoji">🧠</div><h3>المعرفة العامة</h3>
+          <p>معلومات وحقائق متنوعة.</p>
+        </a>
+        <a class="card" href="#technology" data-category="technology">
+          <div class="emoji">💻</div><h3>التكنولوجيا</h3>
+          <p>عالم التقنية والبرمجة.</p>
+        </a>
+        <a class="card" href="#science" data-category="science">
+          <div class="emoji">🔬</div><h3>العلوم</h3>
+          <p>اكتشف أسرار العالم.</p>
+        </a>
+        <a class="card" href="#apps" data-category="apps">
+          <div class="emoji">📱</div><h3>AB APPS</h3>
+          <p>تطبيقات وأدوات مفيدة.</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="section" id="knowledge">
+      <h2>هل تعلم؟ <span>💡</span></h2>
+      <div class="feature searchable">
+        <h3>الإنترنت والويب مش نفس الحاجة!</h3>
+        <p>الإنترنت شبكة بتربط الأجهزة ببعضها، أما الويب فهو أحد الخدمات اللي بتشتغل من خلالها، وبيعتمد على صفحات ومواقع تقدر تفتحها بالمتصفح.</p>
+      </div>
+    </section>
+
+    <section class="section" id="technology">
+      <h2>ركن <span>التكنولوجيا</span></h2>
+      <div class="feature searchable">
+        <h3>يعني إيه برمجة؟</h3>
+        <p>البرمجة هي كتابة تعليمات للكمبيوتر عشان ينفذ مهام محددة. لغة Python من اللغات المناسبة جدًا للمبتدئين.</p>
+      </div>
+    </section>
+
+    <section class="section" id="science">
+      <h2>عالم <span>العلوم</span></h2>
+      <div class="feature searchable">
+        <h3>الضوء سريع جدًا!</h3>
+        <p>سرعة الضوء في الفراغ حوالي 300 ألف كيلومتر في الثانية.</p>
+      </div>
+    </section>
+
+    <section class="section" id="apps">
+      <h2>منطقة <span>AB APPS</span></h2>
+      <div class="feature searchable">
+        <h3>قريبًا: مكتبة التطبيقات</h3>
+        <p>هنضيف تطبيقات مفيدة مع شرحها وروابطها الرسمية، وهنوضح إذا كانت مجانية أو مدفوعة.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2026 AB KNOW · المعرفة للجميع 💚</footer>
+  <script src="/static/app.js"></script>
+</body>
+</html>
